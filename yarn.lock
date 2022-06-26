@@ -2047,10 +2047,10 @@
     jest-validate "^26.5.2"
     lodash.get "^4.4.2"
 
-"@lingui/core@^3.12.1":
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.12.1.tgz#f657deb375521c1cf820f4f6a9ca422fdc1a276e"
-  integrity sha512-MkZgkaaBcFtmUXdck9YNMTMTwCRogUif8Ll4Wyqz0re2Ydo7fdwGFBkacYjOc787R5/UmZr2F21OtPqSbaoaJg==
+"@lingui/core@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.14.0.tgz#62e6b5e3d17b3f2ecd84b3f821d591763055aa89"
+  integrity sha512-ertREq9oi9B/umxpd/pInm9uFO8FLK2/0FXfDmMqvH5ydswWn/c9nY5YO4W1h4/8LWO45mewypOIyjoue4De1w==
   dependencies:
     "@babel/runtime" "^7.11.2"
     make-plural "^6.2.2"
@@ -2065,13 +2065,13 @@
     "@lingui/conf" "^3.12.1"
     ramda "^0.27.1"
 
-"@lingui/react@^3.12.1":
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-3.12.1.tgz#1134c71e1454652984e9f775b7bc28db083526e4"
-  integrity sha512-TM64Z3ZUsFRn2hz1svk2DRGZljzMY5peP0UurgbjqS2JnQOavFWJsAZmJDwUIEQCoqZI6pjYbjUlbKUdefpXzA==
+"@lingui/react@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-3.14.0.tgz#e3e6732a9d172c8ecb4f82fb8558b1766f5cee31"
+  integrity sha512-ow9Mtru7f0T2S9AwnPWRejppcucCW0LmoDR3P4wqHjL+eH5f8a6nxd2doxGieC91/2i4qqW88y4K/zXJxwRSQw==
   dependencies:
     "@babel/runtime" "^7.11.2"
-    "@lingui/core" "^3.12.1"
+    "@lingui/core" "^3.14.0"
 
 "@material-ui/core@^4.11.4":
   version "4.12.3"
@@ -2710,12 +2710,12 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
   integrity sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
 
-"@types/react-dom@^17.0.10":
-  version "17.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.10.tgz#d6972ec018d23cf22b99597f1289343d99ea9d9d"
-  integrity sha512-8oz3NAUId2z/zQdFI09IMhQPNgIbiP8Lslhv39DIDamr846/0spjZK0vnrMak0iB8EKb9QFTTIdg2Wj2zH5a3g==
+"@types/react-dom@^17.0.11":
+  version "17.0.17"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
+  integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
   dependencies:
-    "@types/react" "*"
+    "@types/react" "^17"
 
 "@types/react-redux@^7.1.16":
   version "7.1.18"
@@ -2755,6 +2755,15 @@
   version "17.0.19"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
   integrity sha512-sX1HisdB1/ZESixMTGnMxH9TDe8Sk709734fEQZzCV/4lSu9kJCPbo2PbTRoZM+53Pp0P10hYVyReUueGwUi4A==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@^17":
+  version "17.0.47"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.47.tgz#4ee71aaf4c5a9e290e03aa4d0d313c5d666b3b78"
+  integrity sha512-mk0BL8zBinf2ozNr3qPnlu1oyVTYq+4V7WA76RgxUAtf0Em/Wbid38KN6n4abEkvO4xMTBWmnP1FtQzgkEiJoA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
